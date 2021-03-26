@@ -1,0 +1,120 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    margin-top:10px;
+    display: flex;
+    justify-content: center;    
+    background:black;
+    font-size:24px;
+    color:white;
+    border-radius: 8px;
+    width:1015px;
+}
+a:hover{
+    background-color:rgba(0, 0, 0, 0.852);
+    transition: 0.8s;
+}
+form{
+    margin-top:30px;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+.Atividade{
+    padding:15px;
+    border-bottom: 1px solid black;
+}
+
+
+.Atividade p{
+    
+    font-size: 1.3rem;
+    margin:8px 0px;
+}
+
+
+
+.piece{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.piece input{
+    padding:10px;
+    margin:5px;
+    
+}
+.pieces button{
+    width: 192px;
+    height: 40px;
+    margin:15px;
+    margin-left:40%;
+    font-size:20px;
+    font-weight:bold;
+    color: white;
+    background-color: gray;
+    border-radius:10px;
+}
+.pieces button:hover{
+    background-color: rgba(152, 152, 152, 0.92);
+    transition: 0.3s;
+}
+.texto{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texto h2{
+    font-size: 1.2rem;
+    
+    margin:5px 45px;
+}
+
+
+.Atividade img{
+   
+    margin: 0 200px;
+}
+
+/*//////////////////////////////*/
+
+
+
+.texto-atvd18, .login, .password, .button{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+   
+    
+    
+  
+
+}
+
+.Acesso button{
+    width: 180px;
+    height: 40px;
+    margin: 15px;
+    font-size:20px;
+    font-weight:bold;
+    color: white;
+    background-color: gray;
+    border-radius:10px;
+
+}
+
+.Acesso input{
+    padding:10px;
+    margin:5px 0px;
+    
+}

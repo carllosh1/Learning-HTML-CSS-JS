@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-Exercicios</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+
+</head>
+<body>
+    <form>
+        <fieldset>
+
+            <div class="atvd11">
+                <legend>Atividade11</legend>
+                <p>Que gere o preço de um carro ao consumidor e os valores pagos pelo imposto e pelo lucro
+                    do distribuidor, sabendo o custo de fábrica do carro e que são pagos: a) de imposto: 45%
+                    sobre o custo do carro; b) de lucro do distribuidor: 12% sobre o custo do carro.</p>
+                <div class="padrao">
+                    <H1>Custo de fábrica:</H1><input type="text" id="atvd11-1" size="30" placeholder="Digite o preço do carro">
+                    <button type="button" onclick="atvd11()">Calcular</button>    
+                   
+                    <br/>
+                
+                </div>
+
+                <div class="texto">
+                    
+                    <div id="imposto-text" class="alinhar"></div>
+                    <div id="imposto" class="alinhar"></div> 
+                    
+                    <br>
+                
+                    <div id="lucro-text" class="alinhar"></div>
+                    <div id="lucro" class="alinhar"></div>  
+                    <br>
+                
+                    <div id="carro-text" class="alinhar"></div>
+                    <div id="carro" class="alinhar"></div> 
+        
+                </div>
+
+
+            </div>
+            <hr>
+            
+            <div class="atvd12">
+                <legend>Atividade12</legend>
+
+                <p>Leia a velocidade máxima permitida em uma avenida e a velocidade com que o motorista
+                    estava dirigindo nela e calcule a multa que uma pessoa vai receber, sabendo que são pagos:
+                    a) 50 reais se o motorista estiver ultrapassar em até 10km/h a velocidade permitida (ex.:
+                    velocidade máxima: 50km/h; motorista a 60km/h ou a 56km/h); b) 100 reais, se o motorista
+                    ultrapassar de 11 a 30 km/h a velocidade permitida. c) 200 reais, se estiver acima de 31km/h
+                    da velocidade permitida</p>
+
+                <div class="padrao">
+                    <H1>Velocidade do carro:</H1><input type="text" id="atvd12-1" size="30" placeholder="Digite a velocidade (Km/h)">
+                    <button type="button" onclick="atvd12()">Calcular</button>    
+                    <br/>
+                
+                </div>
+
+                <div class="texto">
+                    
+                    <div id="res3"></div>
+                   
+        
+                </div>
+
+            </div>
+            <hr>
+
+            <div class="atvd13">
+                <legend>Atividade13</legend>
+
+                <p>Sabendo que latão é constituído de 70% de cobre e 30% de zinco, indique a quantidade de
+                    cada um desses componentes para se obter uma certa quantidade de latão (requerida pelo
+                    usuário).</p>
+                    <h3>Um latão tem possui 130g</h3>
+
+                <div class="padrao">
+                    <H1>Quantidade de latões:</H1><input type="text" id="atvd13-1" size="30" placeholder="Digite a quantidade de latões (und.)">
+                    <button type="button" onclick="atvd13()">Calcular</button>    
+                    <br/>
+                
+                </div>
+
+                <div class="texto">
+                    
+                    <div id="cobre1" class="alinhar"></div>
+                    <div id="cobre" class="alinhar"></div> 
+                    <div id="cobre2" class="alinhar"></div> 
+                    <br>
+                
+                    <div id="zinco1" class="alinhar"></div>
+                    <div id="zinco" class="alinhar"></div> 
+                    <div id="zinco2" class="alinhar"></div> 
+        
+                </div>
+
+            </div>
+            <hr>
+            
+            <div class="atvd14">
+
+                <legend>Atividade14</legend>
+                <p> Ler 2 números inteiros do teclado. Se o segundo for diferente de zero, calcular e imprimir
+                    o quociente do primeiro pelo segundo. Caso contrário, imprimir a mensagem: “DIVISÃO
+                    POR ZERO”. </p>
+
+                <div class="padrao">
+                    <H1>Digite o 1° número:</H1><input type="text" id="atvd14-1" size="30" placeholder="Digite um número inteiro">
+                </div>
+                <div class="padrao">
+                    <H1>Digite o 2° número:</H1><input type="text" id="atvd14-2" size="30" placeholder="Digite um número inteiro">
+                </div>
+                    
+                <button type="button" onclick="atvd14()">Calcular</button> 
+                    
+    
+                        <br/>
+
+                <div class="texto">
+                   
+                    <div id="quociente" class="alinhar"></div>
+                    <div id="quociente1" class="alinhar"></div>
+
+                </div>
+
+            </div>
+
+            <hr>
+            
+            <div class="atvd15">
+
+                <legend>Atividade15</legend>
+                <p> Ler três valores e determinar o maior dentre eles. </p>
+
+                    <div class="padrao">
+                        <H1>Digite o 1° número:</H1><input type="text" id="atvd15-1" size="30" placeholder="Digite um número inteiro">
+                        <br/>
+                    
+                    </div>
+                    <div class="padrao">
+                        <H1>Digite o 2° número:</H1><input type="text" id="atvd15-2" size="30" placeholder="Digite um número inteiro">
+                        <br/>
+                    
+                    </div>
+                    <div class="padrao">
+                        <H1>Digite o 3° número:</H1><input type="text" id="atvd15-3" size="30" placeholder="Digite um número inteiro">
+                        <br/>
+                    
+                    </div>
+                        <button type="button" onclick="atvd15()">Calcular</button> 
+
+                <div class="texto">
+                    <div id="n1" class="alinhar"></div>
+                    <div id="n1-text" class="alinhar"></div>
+
+                </div>
+
+            </div>
+            <hr>
+            <div class="atvd16">
+
+                <legend>Atividade16</legend>
+                <p> Ler três valores e colocá-los em ordem crescente. </p>
+
+                <div class="padrao">
+                    <H1>Digite o 1° número:</H1><input type="text" id="atvd16-1" size="30" placeholder="Digite um número inteiro">
+                    <br/>
+                
+                </div>
+                <div class="padrao">
+                    <H1>Digite o 2° número:</H1><input type="text" id="atvd16-2" size="30" placeholder="Digite um número inteiro">
+                    <br/>
+                
+                </div>
+                <div class="padrao">
+                    <H1>Digite o 3° número:</H1><input type="text" id="atvd16-3" size="30" placeholder="Digite um número inteiro">
+                    <br/>
+                
+                </div>
+                
+                <button type="button" onclick="atvd16()">Calcular</button> 
+
+                <div class="texto">
+
+                    <div id="crescente-text" class="alinhar"></div>
+                   
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="atvd17">
+
+                <legend>Atividade17</legend>
+                <p> Ler os três coeficientes de uma equação de segundo grau e determinar suas raízes. (ax²+bx+c)</p>
+
+                <div class="padrao">
+                    <H1>Digite o valor de a:</H1><input type="text" id="atvd17-1" size="30" placeholder="Digite o valor de a">
+
+                    <br/>
+                
+                </div>
+                <div class="padrao">
+                    <H1>Digite o valor de b:</H1><input type="text" id="atvd17-2" size="30" placeholder="Digite o valor de b">
+    
+                    <br/>
+                </div>
+                <div class="padrao">
+                    <H1>Digite o valor de c:</H1><input type="text" id="atvd17-3" size="30" placeholder="Digite o valor de c">
+
+                    <br/>
+                
+                </div>
+            
+                <button type="button" onclick="atvd17()">Calcular</button> 
+
+                <div class="texto">                
+                    <div id="raiz" class="alinhar"></div>
+      
+                </div>
+
+            </div>
+            <hr>
+
+            <div class="atvd18">
+
+                <legend>Atividade18</legend>
+                <p>Ler três valores do teclado e dizer se eles formam um triângulo. Caso afirmativo, dizer seu tipo (equilátero, isósceles ou escaleno).</p>
+
+                <div class="padrao">
+                    <H1>Digite 1° lado:</H1><input type="text" id="atvd18-1" size="30" placeholder="Digite o lado do triângulo">
+
+                    <br/>
+                
+                </div>
+                <div class="padrao">
+                    <H1>Digite 2° lado:</H1><input type="text" id="atvd18-2" size="30" placeholder="Digite o lado do triângulo">
+    
+                    <br/>
+                </div>
+                <div class="padrao">
+                    <H1>Digite 3° lado:</H1><input type="text" id="atvd18-3" size="30" placeholder="Digite o lado do triângulo">
+
+                    <br/>
+                
+                </div>
+            
+                <button type="button" onclick="atvd18()">Calcular</button> 
+
+                <div class="texto">                
+                    <div id="triangulo-text" class="alinhar"></div>
+      
+                </div>
+
+            </div>
+            <hr>
+
+            <div class="atvd19">
+
+                <legend>Atividade19</legend>
+                <p>Ler 4 números inteiros e calcular a soma dos que forem par.</p>
+
+                <div class="padrao">
+                    <H1>Digite 1° número:</H1><input type="text" id="atvd19-1" size="30" placeholder="Digite um número inteiro">
+
+                    <br/>
+                
+                </div>
+                <div class="padrao">
+                    <H1>Digite 2° número:</H1><input type="text" id="atvd19-2" size="30" placeholder="Digite um número inteiro">
+    
+                    <br/>
+                </div>
+                <div class="padrao">
+                    <H1>Digite 3° número:</H1><input type="text" id="atvd19-3" size="30" placeholder="Digite um número inteiro">
+
+                    <br/>
+                
+                </div>
+                <div class="padrao">
+                    <H1>Digite 4° número:</H1><input type="text" id="atvd19-4" size="30" placeholder="Digite um número inteiro">
+
+                    <br/>
+                
+                </div>
+            
+                <button type="button" onclick="atvd19()">Calcular</button> 
+
+                <div class="texto">                
+                    <div id="soma-text" class="alinhar"></div>
+                    <div id="soma" class="alinhar"></div>
+      
+                </div>
+
+            </div>
+            <hr>
+            <div class="atvd20">
+
+                <legend>Atividade20</legend>
+                <p>Que informe se um dado ano é ou não bissexto. Obs: um ano é bissexto se ele for divisível por 400 ou se ele for divisível por 4 e não por 100.</p>
+                <div class="padrao">
+                    <H1>Digite o ano</H1><input type="text" id="atvd20-1" size="30" placeholder="Digite o ano">
+                    <button type="button" onclick="atvd20()">Calcular</button>    
+                    <br/>
+                
+                </div>
+
+                <div class="texto">
+                    
+                    <div id="ano-text" class="alinhar"></div>
+                   
+        
+                </div>
+
+
+    
+       
+    </fieldset>
+    </form>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

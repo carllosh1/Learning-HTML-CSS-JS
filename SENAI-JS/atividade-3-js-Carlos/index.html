@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 2</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <a href="detran.html">CLIQUE AQUI -> ATIVIDADE DETRAN</a>
+    <form>
+        <fieldset>
+            <div class="Atividade">
+                <legend>Atividade 6</legend>
+                <p>Fazer um programa para ler o código de uma peça 1, o número de peças 1, o valor unitário de cada
+                    peça 1, o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Calcule e
+                    mostre o valor a ser pago.</p>
+                <label for="atvd6"></label>
+                <div class="texto">
+                    <h2>Código Peça:</h2>
+                    <h2>Quantidade:</h2>
+                    <h2>Preço por unidade:</h2>
+
+                </div>
+
+                <div class="pieces">
+                    
+                    <div class="piece">
+                        <input type="number" id="code" placeholder="Digite o código da 1° peça">
+                        <input type="number" id="unity" placeholder="Digite a quantidade de peças">
+                        <input type="number" id="price" placeholder="Digite o preço por unidade">
+    
+                    </div>
+                    
+                    <div class="piece">
+                        
+                        <input type="number" id="code1" placeholder="Digite o código da 2° peça">
+                        <input type="number" id="unity1" placeholder="Digite a quantidade de peças">
+                        <input type="number" id="price1" placeholder="Digite o preço por unidade">
+    
+                    </div>
+                   
+                    <button type="button" onclick="atvd6();">Calcular</button>
+
+                    <div id="text-atvd6"></div>
+                </div>
+                    
+                
+                
+                
+            </div>
+
+            <div class="Atividade">
+                <legend>Atividade 8</legend>
+                <p>Com base na tabela de preços ao lado, faça um programa que leia o código de um item e a
+                    quantidade deste item. A seguir, calcule e mostre o valor da conta a pagar.</p>
+                <img src="img/tela.JPG">
+                <div class="pieces">
+                    <div class="texto">
+                        <h2>Código:</h2>
+                        <h2>Quantidade:</h2></div>
+                    <div class="piece">
+                       
+                        <input type="number" id="code-atvd8" placeholder="Digite o código do seu lanche">
+                        <input type="number" id="unity-atvd8" placeholder="Digite a quantidade">
+    
+                    </div>
+                    
+                    <button type="button" onclick="atvd8();">Calcular</button>
+    
+                    <div id="text-atvd8"></div>
+
+
+                </div>
+                
+            </div>
+
+
+            <div class="Atividade">
+                <legend>Atividade 11</legend>
+                <p>Para doar sangue é necessário ter entre 18 e 67 anos. Faça um aplicativo na linguagem C que
+                    pergunte a idade de uma pessoa e diga se ela pode doar sangue ou não. Use alguns dos operadores
+                    lógicos OU (||) e E (&&).</p>
+
+                <div class="pieces">
+                    <div class="texto">
+                        <h2>Idade:</h2>
+                        
+                    </div>
+                    <div class="piece">
+                        <input type="number" id="age" placeholder="Digite aqui sua Idade">
+                    </div>
+                    <button type="button" onclick="atvd11();">Calcular</button>
+    
+                    <div id="text-atvd11"></div>
+
+
+                </div>
+               
+            </div>
+
+            <div class="Atividade">
+                <legend>Atividade 15</legend>
+                <p>Elabore um programa que, dada a idade de um nadador. Classifique-o em uma das seguintes
+                    categorias: Infantil A = 5 - 7 anos,
+                             Infantil B = 8 - 10 anos, 
+                             juvenil A = 11- 13 anos 
+                             juvenil B =14 - 17 anos e
+                              Sênior = 18 - 25 anos. Apresentar mensagem “idade fora da faixa etária” quando
+                    for outro ano não contemplado. </p>
+                <div class="pieces">
+                    <div class="texto">
+                        <h2>Idade:</h2>
+                        
+                    </div>
+                    <div class="piece">
+                        <input type="number" id="age-atvd15" placeholder="Digite aqui sua Idade">
+                    </div>
+                    <button type="button" onclick="atvd15();">Calcular</button>
+    
+                    <div id="text-atvd15"></div>
+
+
+                </div>
+                
+            </div>
+
+            <div class="Atividade">
+                <legend>Atividade 18</legend>
+                <p>Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura
+                    de senha incorreta informada, escrever a mensagem "Senha Invalida". Quando a senha for
+                    informada corretamente deve ser impressa a mensagem "Acesso Permitido" e o algoritmo
+                    encerrado. Considere que a senha correta é o valor 2002.
+                    Exemplo:</p>
+
+                <div class="Acesso">
+                    <div class="texto-atvd18">
+                      
+                        <h2>Cadastro:</h2>
+                        <h2>Login:</h2>
+                    </div>
+                    <div class="login">
+                        <input type="text" id="loginRegister" placeholder="Cadastre seu Usuário">
+                       
+                        <input type="text" id="login" placeholder="Coloque seu Usuário">
+                        
+    
+                       
+                    </div>
+                    
+                    <div class="password">
+                        <input type="text" id="passwordRegister" placeholder="Cadastre sua senha">
+                        
+                        <input type="text" id="password" placeholder="Coloque sua senha">
+                       
+                    </div>
+                    <div class="button">
+                        <button type="button" onclick="atvd18(); atvd18_2();">Cadastrar</button>
+                        <button type="button" onclick="atvd18_1();">Login</button>
+                    </div>
+                    
+                    <div id="text-atvd18"></div>
+
+
+                </div>
+
+               
+            </div>
+
+            
+
+
+            
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

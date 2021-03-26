@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:3900px;
+    
+}
+form{
+    width:1200px;
+    margin: 20px auto;  
+    background-color: rgba(111, 201, 201, 0.79);
+    
+}
+legend,p,h3{
+    text-align: justify;
+    padding:10px;
+
+}
+p{
+    font-size:24px;
+}
+h1{
+    font-size:22px;
+    
+}
+legend{
+    font-weight: bold;
+
+}
+.padrao{
+    display: flex;
+    margin:40px 10px;
+}
+.padrao button{
+    margin: 0px 5px;
+    padding:0px 10px;
+}
+.padrao input{
+    margin: 0px 5px;
+}
+.texto{
+    margin:10px;
+    font-size: 24px;
+   
+}
+.alinhar{
+    display:inline-block;
+}
+
+.atvd14 button, .atvd15 button, .atvd16 button, .atvd17 button, .atvd18 button, .atvd19 button {
+    padding: 10px;
+    margin: 10px;
+}   

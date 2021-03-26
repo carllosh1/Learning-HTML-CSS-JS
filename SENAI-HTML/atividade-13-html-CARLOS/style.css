@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.8fr 0.3fr 4fr 0.6fr;
+    grid-template-areas: "topo"
+                         "meio"
+                         "baixo"
+                         "conteudo" 
+                         "footer";
+}
+
+.header{
+    grid-area: topo;
+    background-color: #262626f3;
+    width: 100%;
+}
+.header ul{
+    display:flex !important;
+    justify-content: space-around;
+    padding: 4px;
+   
+    
+}
+.item{
+    display: flex;
+    align-items:flex-end;
+    
+    
+}
+
+.header a{
+    color:white;
+    font-size: 20px;
+    line-height: 25px;
+    
+
+    
+}
+.logo{
+    grid-area: meio;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:15px;
+    width: 100%;
+    
+    
+}
+#inverter {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-top: -10px;
+    }
+    
+#logo{
+    margin-left: 30px;
+}
+.logoimg{
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+   
+}
+.logoimg p{
+    font-size:20px;
+    font-weight: bold;
+}
+.nav{
+    grid-area: baixo;
+    background-color: #713D19;
+}
+.nav ul{
+    display:flex !important;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.nav a{
+    color:white;
+    font-size: 25px;
+    width: 100%;
+
+    
+}
+
+.main{
+    grid-area:conteudo;
+    
+    width: 100%;
+    width: 1200px;
+    margin: 100px auto;
+   
+   
+}
+.main1{
+    grid-area:conteudo;
+    width: 1000px;
+    margin: 40px auto;
+   
+
+}
+.main1 h1{
+    font-size: 50px;
+    font-family: courier;
+    text-align: center;
+}
+.main1 p{
+    font-size: 30px;
+    text-align: justify;
+}
+.main2{
+    grid-area:conteudo;
+    width: 1200px;
+    margin:auto;
+}
+.main3{
+    grid-area:conteudo;
+    width: 1000px;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.918);
+    color:white;
+    border-radius: 10px;
+
+}
+.main3 h1{
+    font-size: 70px;
+    font-family: courier;
+    text-align: center;
+    margin:10px;
+}
+.main3 p{
+    font-size: 50px;
+    text-align: center;
+   padding: 10px;
+   margin-top: 90px;
+}
+
+    
+.footer{
+    grid-area: footer;
+    background-color: black;
+    color:white;  
+
+   
+    
+    
+}
+.contato{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer h3, p{
+    margin:15px;
+}
+.footer h3{
+    font-size: 25px;
+    margin-left: 100px;
+}
+.footer img{
+    margin-right: 50px;
+}
+#copy{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

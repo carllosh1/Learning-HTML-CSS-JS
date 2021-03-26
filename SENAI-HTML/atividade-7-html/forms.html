@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <a href="file:///C:/Users/selll/Downloads/atividade-7-html/form.html" style="margin-left: 600px;">Atividade 1</a>
+        
+    
+    <a href="file:///C:/Users/selll/Downloads/atividade-7-html/forms.html" style="margin-left: 10px;">Atividade 2</a>
+
+    <h1>Formulário HTML</h1>
+    <form action="enviar.php" method= "post" enctype="multipart/form-data">
+        <fieldset style="margin-right: 750px;"> 
+            <legend>   <strong>Digite seus dados</strong></legend>
+
+            <div >
+                <div>
+                    <label for="nome">Nome: 
+                
+                    </label>
+                    <input name="nome" required="required" placeholder="Digite seu nome" type="text" id="nome" size="40" style="margin-left:144px; margin-bottom: 5px;" >
+                </div>
+           
+        
+                <div>
+                    <label for="">E-mail: </label>
+                    <input name="email" required="required" placeholder="Digite seu E-mail" type="email" size="40 " style="margin-left:140px; margin-bottom: 5px;">
+                </div>
+               
+                <div >
+                    <label for="">Telefone: </label>
+                    <input name="telefone" required="required" placeholder="Digite seu Telefone" type="text"  size="40 " style="margin-left:128px; margin-bottom: 5px;">
+                </div>
+           
+        
+                <div>
+                    <label for="">Senha: </label>
+                    <input name="senha" required="required" placeholder="Digite sua senha(MAX. 40 caracteres)" type="password" maxlength="40" size="40 " style="margin-left:144px; margin-bottom: 5px;">
+                </div>
+        
+                <div>
+                    <label for="">Data de nascimento: </label>
+                    <input name= "senha" required="required" placeholder="dd/mm/aaaa" type="date"  style="margin-left:  57px; margin-bottom: 5px;">
+                </div>
+
+            </div>
+
+           
+           
+            <div style="display: flex;" style="align-items: center;">  
+                <label for="generos" style="padding-top: 70px;" >Gêneros Musicais Favorito: </label>
+                <div style="margin-left:10px;">
+                    <div >
+                
+                        <label for="axe">  
+                            <input name="axe" type="checkbox" id="axe">
+                            Axé
+                        </div>
+                       
+                        <div>
+                            <label for="pop">
+                            <input name="pop" type="checkbox" id="pop">
+                            Pop
+                            </label>
+            
+                        </div>
+                            
+                        <div>
+            
+                            <label id="Celta">
+                            <input name="Celta" type="checkbox" id="Celta">
+                            Celta
+                            </label>
+            
+                        </div>
+            
+                        <div>
+                            <label for=" Rock">
+                                <input name="generos" type="checkbox" id="Rock">
+                                Rock
+                            </label>
+                        </div>
+            
+                        <div>
+                            <label for="Samba">
+                                <input name="Samba" type="checkbox" id=Samba>
+                                Samba
+                            </label>
+            
+                        </div>
+                        <div>
+                            <label for="pagode">
+                            <input name="pagode" type="checkbox" id="pagode">
+                             Pagode
+                            </label>
+                        </div>
+                        <div>
+                            <label for="sertanejo">
+                            <input name="sertanejo" type="checkbox" id="sertanejo">
+                             Sertanejo
+                            </label>
+            
+                        </div>
+        
+                        <div>
+                            <label for="eletro">
+                            <input name="eletro" type="checkbox" id="eletro" style="margin-bottom: 8px;">
+                             Eletronica
+                            </label>
+            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div >
+                <label for="sim">Receber notícias por E-mail:</label>
+
+                <label>
+                    <input name="enquete" type="radio" id="sim">
+                    SIM
+                </label>
+
+                <label for="nao">
+                    <input name="enquete" type="radio" id="nao">
+                     NÃO
+                </label>
+
+            </div>
+            <br>
+            <div>
+                <label for="estado">Estados:</label>
+                <select name="estado" id="estado" style="margin-left: 133px; margin-bottom:  6px; ">
+                    <option value="" selected disabled>--Selecione--</option>
+
+                    <optgroup label="Nordeste">
+                        <option value="Alagoas">Alagoas</option>
+                        <option value="Bahia">Bahia</option>
+                        <option value="Ceara">Ceará</option>
+                        <option value="Maranhao">Maranhão</option>
+                        <option value="Paraiba">Paraíba</option>
+                        <option value="Pernambuco">Pernambuco</option>
+                        <option value="Piaui">Piauí</option>
+                        <option value="RioGrandedoNorte">Rio Grande do Norte</option>
+                        <option value="Sergipe">Sergipe</option>
+                    </optgroup>
+
+                    <optgroup label="Sudeste">
+                        <option value="MinasGerais">Minas Gerais</option>
+                        <option value="SaoPaulo">São Paulo</option>
+                        <option value="EspiritoSanto">Espírito Santo</option>
+                        <option value="RiodeJaneiro">Rio de Janeiro</option>
+                    </optgroup>
+
+                    <optgroup label="Sul">
+                        <option value="Parana">Paraná</option>
+                        <option value="SantaCatarina">Santa Catarina</option>
+                        <option value="RioGrandedoSul">Rio Grande do Sul</option>
+                    </optgroup>
+
+                    <optgroup label="Centro-Oeste">
+                        <option value="Goias">Goiás</option>
+                        <option value="MatoGrosso">Mato Grosso</option>
+                        <option value="MatoGrossodoSul">Mato Grosso do Sul</option>
+                        <option value="DistritoFederal">Distrito Federal</option>
+                    </optgroup>
+
+                    <optgroup label="Norte">
+                        <option value="Tocantins">Tocantins</option>
+                        <option value="Para">Pará</option>
+                        <option value="Amapa">Amapá</option>
+                        <option value="Roraima">Roraima</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Acre">Acre</option>
+                        <option value="Rondonia">Rondônia</option>
+                    </optgroup>
+                </select>
+            </div>
+            
+            <div style="display:flex;" style="align-items: center; margin-bottom: 6px; ">
+                <label style="padding-top: 60px;">Comentário:</label>
+                <label for="comentario">&nbsp;</label>
+                <textarea name="comentario" id="recados" cols="40" rows="10" maxlength="256" style="margin-left: 107px;"></textarea>
+            </div>
+            
+            <div>
+                <button type="submit" >Enviar</button>
+                <button type="reset" >Limpar</button>
+                <button type="save" >Salvar</button>
+                <img src="img/andando.gif" width="100px" height="40px">
+            </div>
+  
+        </fieldset>
+
+    </form>
+    
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        .ul1{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        }        
+    </style>
+</head>
+<body>
+	<header>
+		<ul class="ul1" type="none">
+			<li><a href="pagina1.html" target="conteudo" title="Primeira página">Home</a></li>
+			<li><a href="pagina2.html" target="conteudo" title="Segunda página">About</a></li>
+			<li><a href="pagina3.html" target="conteudo" title="Terceira página">Client</a></li>
+		</ul>
+	</header>
+
+	<main>
+		<iframe src="pagina1.html" name="conteudo" frameborder="0"></iframe>
+	</main>
+	
+    <footer>
+        <address>
+            Belo Horizonte - 2021
+        </address>
+    </footer>
+</body>
+</html>

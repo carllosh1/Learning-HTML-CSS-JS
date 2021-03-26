@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Cadastro Universidade</title>
+</head>
+<body>
+    <header>
+        <nav class="top">
+            <a  href="demografiaBH.html">DemografiaBH</a>
+            <a  href="demografiaBH2.html">DemografiaBH 2</a>
+            <a href="formAcademia.html">Academia</a>
+            <a  href="formBLOG.html">BLOG</a>
+            <a href="formCadUniversidade.html">Cadastro Universidade</a>
+            <a href="formDiversos.html">Diversos</a>
+            <a href="listaCursoUFMG.html">Lista UFMG</a>
+        </nav>
+    </header>
+
+   <main>
+    <form  action="enviar.php" method= "post" enctype="multipart/form-data">
+        <fieldset class="xd">
+            <legend>Sistema de Gestão acadêmica</legend>
+            <h3 class="titulo">Manutenção de Usuários do SISTEMA INTEIRO</h3>
+            <hr>
+
+            <div class="form1">
+                
+                <label for="login">Login:</label>
+                       
+                <input type="text" id="login" class="login" placeholder="Digite seu login" required="required">
+                <br>
+
+                <label for="Senha">Senha:</label>
+                       
+                <input type="password" id="Senha" class="Senha" placeholder="Digite sua senha" required="required">
+                <br>
+                <label for="status">Status:</label>
+                                
+                <select name="status" id="status" class="status">
+                <option value="" selected disabled>--selecione--</option>
+
+                <option value="ativo">Ativo</option>
+                <option value="inativo">Inativo</option>
+                </select>
+                <br>
+                <label for="tipo">Tipo:</label>
+
+                <label for="tecnico" class="tipo">
+                    <input name="tipo" type="radio" id="tecnico" required="required">
+                    Técnico
+                </label>
+
+                <label for="professor" class="tipo">
+                    <input name="tipo" type="radio" id="professor" required="required">
+                     Professor
+                </label>
+                <label for="aluno" class="tipo">
+                    <input name="tipo" type="radio" id="aluno" required="required">
+                     Aluno
+                </label>
+                <br>
+                <label for="data">Data de criação:</label>
+                <input name="data" required="required" placeholder="dd/mm/aaaa" type="date" class="data">
+                                
+                <br>
+                <label for="Perfil">Perfil:</label>
+
+                <label for="Convidado" class="Perfil">
+                    <input name="Perfil" type="radio" id="Convidado">
+                    Convidado
+                </label>
+
+                <label for="Administrador" class="Perfil">
+                    <input name="Perfil" type="radio" id="Administrador">
+                     Administrador
+                </label>
+                <br>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="obs" >Observações:</label>
+                        </td>
+                        <td>
+                            <textarea name="obs" id="obs" cols="40" rows="10" maxlength="256" class="obs" required="required"></textarea>
+                        </td>
+                    </tr>
+
+                </table>
+                <br>
+                <label for="generos">Módulos: </label>
+                <label for="compras" class="modulo">  
+                    <input name="compras" type="checkbox" id="compras" >
+                    Compras
+
+                <label for="Biblioteca" class="modulo">  
+                    <input name="Biblioteca" type="checkbox" id="Biblioteca" >
+                    Biblioteca
+                <label for="Academico" class="modulo">  
+                    <input name="Academico" type="checkbox" id="Academico" >
+                    Acadêmico
+                <label for="Documentacao" class="modulo">  
+                    <input name="Documentacao" type="checkbox" id="Documentacao">
+                    Documentação
+                <label for="RecursosHumanos" class="modulo">  
+                    <input name="RecursosHumanos" type="checkbox" id="RecursosHumanos" required="required">
+                    Recursos Humanos
+                    <br>
+                    <br>
+                    
+                    
+                        <button type="submit">Cadastrar</button>
+                        <button type="reset" >Limpar</button>
+                    
+                
+
+            </div>
+            
+        </fieldset>
+    </form>
+   </main>
+    
+</body>
+</html>

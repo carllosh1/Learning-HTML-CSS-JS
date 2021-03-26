@@ -1,0 +1,215 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+.logo{
+    padding:20px;   
+    font-size: 1.2rem;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    padding:20px;
+}
+nav ul li a{
+    color: white;
+    font-size: 1.2rem;
+   
+}
+nav ul li a:hover{
+    color:red;
+    transition: 0.5s;
+}
+.menuLateral ul li a:hover{
+    color: rgb(6, 49, 6);
+    transition: 0.5s;
+}
+
+main{
+    margin-top: 20px;   
+    display:grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: 600px;
+    grid-template-areas: "menu central lateral";
+    
+}
+
+.menuLateral{
+    /* background-color:blue; */
+    grid-area: menu;
+    margin:10px;
+    border: 1px solid black;
+    text-align:center;
+    
+   
+}
+.menuLateral ul li{
+    padding-top:50px;
+    height: 143px;
+  
+    
+ 
+}
+.menuLateral ul li a{
+    color: green;
+    font-size: 2rem;
+    
+    
+    
+    
+}
+
+
+.conteudoCentral{
+    /* background-color:green; */
+    grid-area: central;
+    margin:10px;
+    border: 1px solid black;
+    text-align:center;
+   
+}
+.conteudoCentral img{
+    margin: 20px;
+    width: 90%;
+    height: 50%;
+}
+.conteudolateral img{
+    
+    margin: 20px;
+    width: 90%;
+    height:50%;
+}
+.conteudolateral{
+    /* background-color: red; */
+    grid-area: lateral;
+    margin:10px;
+    border: 1px solid black;
+    text-align:center;
+  
+}
+.rodape{
+    margin-top:20px;
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 200px;
+    text-align: center;
+}
+
+@media (max-width: 1150px){
+    .menuLateral ul li a{
+        font-size: 1.5rem;
+        
+       
+    }
+    .conteudoCentral img{
+        margin: 20px;
+        width: 80%;
+        height: 40%;
+    }
+    .conteudolateral img{
+        
+        margin: 20px;
+        width: 80%;
+        height:40%;
+    }
+
+}
+@media (max-width: 960px){
+    main{
+        margin-top: 20px;   
+        display:grid;
+        grid-template-columns:  1fr 1fr ;
+        grid-template-rows: 0.4fr 3fr 1fr;
+        grid-template-areas: "menu menu" 
+                            "central lateral"
+                            "central lateral";
+     
+        
+    }
+    .menuLateral ul {
+        display:flex;
+        justify-content: space-evenly;
+        
+    }
+    .menuLateral ul li{
+        padding: 20px;
+       height: 60px;
+    }
+    .menuLateral ul li a{
+        font-size: 1rem;
+    }
+    .conteudoCentral, .conteudolateral{
+        font-size: 0.8rem;
+    }
+    .conteudoCentral img{
+        margin: 20px;
+        width: 70%;
+        height: 40%;
+    }
+    .conteudolateral img{
+        
+        margin: 20px;
+        width: 70%;
+        height:40%;
+    }
+  
+  
+
+}
+
+@media (max-width: 740px){
+    main{
+        margin-top: 20px;   
+        display:grid;
+        grid-template-columns:  1fr;
+        grid-template-rows: 0.3fr 3fr 3fr;
+        grid-template-areas: "menu " 
+                            "central "
+                            " lateral";
+        
+    }
+   
+    .conteudoCentral img{
+        margin: 20px;
+        width: 80%;
+        height: 60%;
+    }
+    .conteudolateral img{
+        
+        margin: 20px;
+        width: 80%;
+        height:60%;
+    }
+
+}
+@media (max-width: 560px){
+    nav ul li a{
+        font-size: 0.8rem;
+    }
+     
+    .conteudoCentral img{
+        margin: 20px;
+        width: 80%;
+        height: 50%;
+    }
+    .conteudolateral img{
+        
+        margin: 20px;
+        width: 80%;
+        height:50%;
+    }
+}
+.copy{
+    background-color: brown;
+    text-align: center;
+}

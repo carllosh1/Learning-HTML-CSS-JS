@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+    font-family: courier;
+
+}
+
+header{
+    background-color: #5dbfa7;
+    text-align: center;
+    color: white;
+    height:350px;
+}
+main{
+    height: 350px;
+}
+footer{
+    margin-top: 100px;
+    background-color: #5dbfa7;
+    text-align:end;
+  
+    color: white;
+    height:200px;
+    
+
+}
+.h{
+    padding-top: 80px;
+    margin-right: 70px;
+    
+    font-size: 30px;
+}
+
+header h1{
+    padding-top: 70px;
+    font-size: 70px;
+    
+}
+header p{
+    padding-top: 40px;
+    font-size: 40px;
+    
+}
+
+main h2{
+    font-size: 40px;
+    padding-top: 35px;
+    
+
+}
+main p{
+    font-size: 25px;
+    padding-top: 20px;
+
+}
+
+
+#cidade{
+    padding-right: 40px;
+    color: gray;
+}

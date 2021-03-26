@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+   
+  
+}
+body{
+    background-color: darkgreen;
+   
+}
+#titulo{
+    text-align: center;
+    margin: 20px;
+}
+.geral{
+    margin:  auto;
+    align-items: center;
+    width: 960px;
+    text-align: center;
+    background-color: crimson;
+
+
+}
+.junto{
+    display: flex;
+}
+
+.junto h1{
+    padding-top: 350px;
+
+    
+}
+
+.topo{
+    margin:10px 30px;
+    width:900px;
+    height: 240px;
+    background-color: blue;
+}
+.topo h1{
+    padding-top: 120px;
+}
+.menu{
+    margin: 10px 30px;
+    width: 900px;
+    height: 60px;
+    background-color: gray;
+}
+.menu h1{
+    padding-top: 15px;
+}
+.lateral{
+    margin: 0px 30px;
+    width: 200px;
+    height: 700px;
+    background:chocolate;
+}
+.conteudo{
+    
+    width: 670px;
+    height:700px;
+    background: yellow;
+}
+
+.rodape{
+    margin: 10px 30px;
+    height: 50px;
+    width: 900px;
+    background-color: red;
+}
+.rodape h1{
+    padding-top:12.5px;
+}
+.links{
+    background-color: white;
+    display:  flex;
+    justify-content: space-evenly;
+    margin: 30px 10px;
+    border-radius: 15px;
+    
+}
+.link{
+    text-decoration: none;
+    
+    font-size: 100px;
+    color: black;
+
+}

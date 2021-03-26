@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frame</title>
+</head>
+<style>
+      *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        
+    
+    }
+    body{
+        background-image: url(img/wallpaper.jpg);
+    }
+    .head{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        
+       
+        font-size: 60px;
+
+         
+
+    }
+
+    .head a{
+        margin-right: 25px;
+        color: rgb(144, 144, 192);
+    }
+
+    header{
+        width: 100%;
+        height: 48px;
+        margin-top: 3.6em;
+        margin-bottom: 3.6em;
+    }
+    body {
+     font-size: 62.5%;
+    }
+</style>
+<body   >
+    <header>
+
+    <div class="head">
+          
+                <li> <a href="page1.html" target="conteudo" title="Vôlei" >Vôlei</a></li>
+                <li> <a href="page2.html" target="conteudo" title="Futebol">Futebol</a></li>
+                <li> <a href="page3.html" target="conteudo" title="Futebol">Basquete</a></li>
+            
+            
+        
+        </div>
+
+    </header>
+  <main>
+    <iframe src="page1.html" name="conteudo" frameborder="0" width="100%" height="1000"></iframe>
+  </main>
+    
+
+    
+</body>
+</html>

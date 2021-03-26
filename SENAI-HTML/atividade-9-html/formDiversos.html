@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>diversos</title>
+</head>
+<body>
+    <header>
+        <nav class="top">
+            <a  href="demografiaBH.html">DemografiaBH</a>
+            <a  href="demografiaBH2.html">DemografiaBH 2</a>
+            <a href="formAcademia.html">Academia</a>
+            <a  href="formBLOG.html">BLOG</a>
+            <a href="formCadUniversidade.html">Cadastro Universidade</a>
+            <a href="formDiversos.html">Diversos</a>
+            <a href="listaCursoUFMG.html">Lista UFMG</a>
+        </nav>
+    </header>
+    <main>
+        <form action="enviar.php" method= "post" enctype="multipart/form-data">
+            <fieldset class="xd">
+                <legend>Não é associado? Faça seu cadastro.</legend>
+                <div class="form0">
+                    <table>
+                        <tr>
+                            <td> <label for="Nome">Nome:</label></td>
+                            <td colspan="3"><input type="text" id="Nome" required="required" placeholder="Digite seu Nome " size="80%"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Nome">Nome completo:</label></td>
+                            <td colspan="3"> <input type="text" id="Nome" required="required" placeholder="Digite seu Nome completo" size="80%"></td>
+                        </tr>
+                        
+                        <tr>
+                            <td><label for="cpf">CPF:</label></td>
+                            <td colspan="3"><input type="number" id="cpf" required="required" placeholder="Digite seu CPF" size="80%"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">E-mail:</label></td>
+                            <td colspan="3"><input type="email" id=email class=email  required="required" placeholder="Digite seu e-mail" size="80%"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="web">Website:</label></td>
+                            <td colspan="3"><input type="url" id=web class=web  required="required" placeholder="Digite seu website" size="80%"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="endereco">Endereço:</label></td>
+                            <td><input type="text" id=endereco required="required" placeholder="Digite seu Endereço" size="20%"></td>
+                            <td><label for="cidade">Cidade:</label></td>
+                            <td><input type="text" id="cidade" required="required" placeholder="Digite sua Cidade" size="20%"></td>
+                        </tr>
+                       
+                        <tr>
+                            <td><label for="CEP">CEP:</label></td>
+                            <td><input type="number" id="CEP" required="required" placeholder="Digite seu CEP" size="100%"></td>
+                            <td><label for="uf">UF:</label></td>
+                            <td><select name="uf" id="uf">
+                                <option value="" selected disabled>--Selecione--</option>
+            
+                                <optgroup label="Nordeste">
+                                    <option value="Alagoas">Alagoas</option>
+                                    <option value="Bahia">Bahia</option>
+                                    <option value="Ceara">Ceará</option>
+                                    <option value="Maranhao">Maranhão</option>
+                                    <option value="Paraiba">Paraíba</option>
+                                    <option value="Pernambuco">Pernambuco</option>
+                                    <option value="Piaui">Piauí</option>
+                                    <option value="RioGrandedoNorte">Rio Grande do Norte</option>
+                                    <option value="Sergipe">Sergipe</option>
+                                </optgroup>
+            
+                                <optgroup label="Sudeste">
+                                    <option value="MinasGerais">Minas Gerais</option>
+                                    <option value="SaoPaulo">São Paulo</option>
+                                    <option value="EspiritoSanto">Espírito Santo</option>
+                                    <option value="RiodeJaneiro">Rio de Janeiro</option>
+                                </optgroup>
+            
+                                <optgroup label="Sul">
+                                    <option value="Parana">Paraná</option>
+                                    <option value="SantaCatarina">Santa Catarina</option>
+                                    <option value="RioGrandedoSul">Rio Grande do Sul</option>
+                                </optgroup>
+            
+                                <optgroup label="Centro-Oeste">
+                                    <option value="Goias">Goiás</option>
+                                    <option value="MatoGrosso">Mato Grosso</option>
+                                    <option value="MatoGrossodoSul">Mato Grosso do Sul</option>
+                                    <option value="DistritoFederal">Distrito Federal</option>
+                                </optgroup>
+            
+                                <optgroup label="Norte">
+                                    <option value="Tocantins">Tocantins</option>
+                                    <option value="Para">Pará</option>
+                                    <option value="Amapa">Amapá</option>
+                                    <option value="Roraima">Roraima</option>
+                                    <option value="Amazonas">Amazonas</option>
+                                    <option value="Acre">Acre</option>
+                                    <option value="Rondonia">Rondônia</option>
+                                </optgroup></select></td>
+                        </tr>
+                        <tr>
+                            <td><label for="telefone">Telefone:</label></td>
+                            <td><input type="number" id="telefone" name="telefone" required="required" placeholder="Digite seu telefone"></td>
+                            <td><label for="fax">FAX:</label></td>
+                            <td><input type="number" id="fax" name="fax" required="required" placeholder="Digite seu FAX"></td>
+                        </tr>
+                            <tr>
+                                <td><label for="data">Data de Nascimento:</label></td>
+                                <td><input type="date" id="data" name="data" required="required" place="dd/mm/aaaa"></td>
+                                <td><label for="sexo">Sexo:</label></td>
+                                <td><input type="radio" name="sexo" id="m"><label for="m"> Masculino</label>
+                                    <input type="radio" name="sexo" id="f"><label for="f"> Feminino</label>
+                                </td>
+                                
+                            </tr>
+                            <tr> 
+                                <td><label for="celular">Celular</label></td>
+                                <td><input type="number" id="celular" name="celular" required="required" placeholder="Número do celular"></td>
+                                <td><label for="civil">Est.Civil:</label></td>
+                                <td><select name="civil" id="civil">
+                                    <option value="" selected disabled>--Selecione--</option>
+                                    <option value="solteiro">Solteiro</option>
+                                    <option value="casado">Casado</option>
+                                    <option value="Noivado">Noivado</option>
+                                    <option value="divorciado">Divorciado</option>
+                                    <option value="indefinido">Indefinido</option>
+                                </select>
+
+                                </td>  
+        
+
+                            </tr>
+                            <tr>
+                                <td><label for="login">Login:</label></td>
+                                <td><input type="text" id="login"  placeholder="Digite seu login" required="required"></td>
+                                <td><label for="Senha">Senha:</label></td>
+                                <td> <input type="password" id="Senha"  placeholder="Digite sua senha" required="required"></td>
+                            </tr>
+                    </table>
+                   
+                    <br>
+                    <br>
+                    <label for="assunto">Deseja receber informações sobre os seguintes assuntos abaixo:</label>
+                    <br>
+                    <br>
+                <div>
+                    <input type="checkbox" name="assunto" id="tecnologia">
+                    <label for="tecnologia">Tecnologia</label>
+                    <input type="checkbox" name="assunto" id="Esportes">
+                    <label for="Esportes">Esportes</label>
+                    <input type="checkbox" name="assunto" id="Automoveis">
+                    <label for="Automoveis">Automóveis</label>
+               
+                    <input type="checkbox" name="assunto" id="Culinaria">
+                    <label for="Culinaria">Culinária</label>
+                    <input type="checkbox" name="assunto" id="Politica">
+                    <label for="Politica">Política</label>
+                    <input type="checkbox" name="assunto" id="Policial">
+                    <label for="Policial">Policial</label>
+                </div>  
+                <div>
+                    <input type="checkbox" name="assunto" id="Tempo">
+            
+                    <label for="Tempo">Tempo</label>
+                 
+                    <input type="checkbox" name="assunto" id="Cultura">
+                    <label for="Cultura">Cultura</label>
+                    <input type="checkbox" name="assunto" id="Economia">
+                    <label for="Economia">Economia</label>
+                    
+                    <input type="checkbox" name="assunto" id="Jogos">
+                    <label for="Jogos">Jogos</label>
+                    <input type="checkbox" name="assunto" id="Educacao">
+                    <label for="Educacao">Educação</label>
+                    <input type="checkbox" name="assunto" id="Viagem">
+                    <label for="Viagem">Viagem</label>
+                    <input type="checkbox" name="assunto" id="Empregos">
+                    <label for="Empregos">Empregos</label>
+                </div> 
+                    <input type="checkbox" name="assunto" id="Modaestilo">
+                    <label for="Modaestilo">Moda e Estilo</label>
+               
+                 
+                    
+                    <br>
+                    
+                
+                    <br>
+                    <input type="checkbox" id="concordo">
+                    <label for="concordo"> Li as regras de cadastro e autorizo a criação do usuário</label>
+                    <br>
+                    <br>
+                
+                   <div class="botaoD">
+                    <button type="submit">Confirmar</button>
+                    <button type="reset">Retornar</button>
+                   </div>
+                   
+                   
+                        
+                   
+                </div>
+            </fieldset>
+        </form>
+
+
+    </main>
+    
+</body>
+</html>
