@@ -1,0 +1,179 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.geral{
+    display: grid;
+    grid-template-rows: 1fr 6fr 1.8fr;
+    grid-template-areas: "t" "m" "f";
+}
+header{
+    grid-area: t;
+}
+main{
+    grid-area: m;
+}
+footer{
+    background-color: black;
+    grid-area: f;
+}
+.menu{
+    display:flex;
+    justify-content:space-around;
+    background-color:black;
+}
+
+.search i{
+    color:black;
+    border-left: 1px solid black;
+    padding:6px;
+    position: absolute;
+    top:50px;
+    left:48.2%;
+    
+}
+.search input{
+    margin-top:50px;
+    padding:5px;
+}
+.logo{
+    color:white;
+    display:flex;
+}
+.logo img{
+    margin-right:30px;
+}
+.logo label{ 
+    font-family: 'Courier New', Courier, monospace;
+    font-size:1.2rem;
+    
+    padding:55px  10px;
+}
+
+ul li   {
+    display:inline-block;
+}
+nav ul li{
+    display: inline-block;
+    margin: 50px 5px;
+    
+
+}
+.icon i{
+   color:white;
+    font-size:25px;
+   position: absolute;
+    top:50px;
+    left: 95%;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+   
+}
+
+.icon label{
+    background:orangered;
+    color:white;
+    font-size:14px;
+    padding:0px 5px;
+   position: absolute;
+    top:60px;
+    left: 94.5%;
+
+}
+nav ul li ul li{
+
+    margin: 0px;
+    padding:4px;
+
+}
+nav ul li ul li:hover{
+    background: lightgray;
+    transition: .5s;
+}
+nav ul li ul li a:hover{
+    background: none;
+}
+
+nav ul li a{
+    color:white;
+    font-size:1.3rem;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+nav ul li a.active, nav ul li a:hover{
+    background: gray;
+    transition: .5s;
+}
+
+ul ul{
+    position: absolute;
+    min-width:200px;
+    margin:10px 0px;
+    display:none;
+
+}
+ul ul li{
+    display: block;
+    background-color: gray;
+}
+
+ul li:hover ul{
+
+    display: block;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+
+}
+.rodape label, h2,p{
+    text-align: center;
+    color:white;
+    
+}
+.rodape h2{
+    font-size: 1.8rem;
+    margin:30px;
+}
+.rodape i{
+    color:gray;
+    font-size:30px;
+    margin-right:10px;
+    padding-top:5px;
+}
+.rodape label{
+    font-size: 1.3rem;
+    
+    
+}
+.rodape hr{
+    margin-top:40px;
+}
+.contact{
+    margin:10px;
+    width:25vw;
+    
+}
+.icon-rodape{
+    margin-left:0px;
+}
+.patrocinio{
+    margin:10px;
+    width:30vw;
+}
+.politic{
+    margin:10px;
+    width:30vw;
+}
+
+.copy{
+    margin-top:30px;
+    font-size:0.8rem;
+}
