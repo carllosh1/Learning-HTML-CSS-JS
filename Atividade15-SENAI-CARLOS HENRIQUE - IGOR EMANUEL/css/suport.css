@@ -1,0 +1,37 @@
+.comentario-contato{
+    width:500px;
+   margin: 0px auto;
+   text-align: center;
+   background:rgb(84, 70, 70);
+   font-size: 1.5rem;
+}
+
+.dados-contato{
+    
+    margin:10px;
+    
+}
+.dados-contato input{
+    padding-left:5px;
+    width:60%;
+    font-size: 1rem;
+
+}
+
+.dados-contato button{
+    width:100px;
+    height:20px;
+}
+.geral{
+    display: grid;
+    grid-template-rows: 1fr   2fr 1.4fr;
+    grid-template-areas: "t" "m" "f";
+}
+header{
+    grid-area: t;
+
+    height:150px;
+}
+main{
+    grid-area: m;
+}
