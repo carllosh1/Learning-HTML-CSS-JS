@@ -1,0 +1,143 @@
+
+.menu-main{
+    background-color:gray;
+    display: flex;
+    font-size:1.4rem;
+   padding:5px;
+   
+}
+.menu-logo{
+    margin-left:10px;
+}
+.frete-simb{
+    font-family: 'Courier New', Courier, monospace;
+    
+   margin-left: 36%;;
+}
+
+.products-main{
+    margin-bottom:50px;
+}
+.title-main{
+    background: red;
+    text-align: center;
+    margin: 20px auto;
+    width:500px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+}
+
+.produtos{
+    display:flex;
+
+}
+.produto{
+    text-align:center;
+    margin:5px auto;
+    background-color:gray;
+}
+
+.produto-image i{
+    
+    font-size:100px;
+}
+
+.produto h3{
+    margin:10px;
+    font-size: 1rem;
+}
+
+.cart-buy{
+    margin:10px;
+}
+.cart-buy button{
+    background:rgb(46, 155, 46);
+    padding:5px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.cart-buy button:hover{
+    background:rgb(60, 184, 60);
+    transition: 0.5s;
+}
+.destaque-main{
+    margin-bottom:40px;
+}
+
+#title-destaque{
+    color:red;
+    margin: 20px 30px;
+    font-size: 1.5rem;
+    width:350px;
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+
+}
+
+.products-destaque{
+    display:flex;
+}
+
+.product-destaque{
+    background:gray;
+    border-radius: 100px;
+    margin:10px auto;
+
+}
+
+.product-destaque i{
+    font-size:100px;
+    margin:20px;
+}
+
+.offer-header{
+    display:flex;
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+
+.offer-header h2{
+    margin:10px 30px;
+    color:orange;
+    font-size:1.5rem;
+}
+.offer-header p{
+    color:black;
+    font-size:1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+}
+
+.offer-day-main{
+    margin-bottom:120px;
+}
+
+.rodape-produtos{
+    margin-top:20px;
+    background:orange;
+    font-size:1.3rem;
+}
+
+.icon-slider-left i, .icon-slider-right i{
+    font-size: 50px;
+    opacity: 20%;
+    
+}
+
+.icon-slider-left i{
+    position: relative;
+    top:55px;
+    left:30px;
+    
+}
+.icon-slider-right i{
+    position: relative;
+    top:50px;
+    right:30px;
+}
+
+.icon-slider-left i:hover, .icon-slider-right i:hover{
+    opacity:100%;
+}

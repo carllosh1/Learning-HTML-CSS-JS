@@ -5,13 +5,16 @@
     text-decoration: none;
     list-style: none;
 }
+
 .geral{
     display: grid;
-    grid-template-rows: 1fr 6fr 1.8fr;
+    grid-template-rows: 1fr 6fr 1.4fr;
     grid-template-areas: "t" "m" "f";
 }
 header{
     grid-area: t;
+
+    height:150px;
 }
 main{
     grid-area: m;
@@ -30,9 +33,9 @@ footer{
     color:black;
     border-left: 1px solid black;
     padding:6px;
-    position: absolute;
-    top:50px;
-    left:48.2%;
+    position: relative;
+    
+    right:2.4rem;
     
 }
 .search input{
@@ -49,8 +52,8 @@ footer{
 .logo label{ 
     font-family: 'Courier New', Courier, monospace;
     font-size:1.2rem;
+    margin:55px 10px;
     
-    padding:55px  10px;
 }
 
 ul li   {
@@ -65,9 +68,9 @@ nav ul li{
 .icon i{
    color:white;
     font-size:25px;
-   position: absolute;
+   position: relative;
     top:50px;
-    left: 95%;
+    right:0.6rem;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
@@ -80,9 +83,10 @@ nav ul li{
     color:white;
     font-size:14px;
     padding:0px 5px;
-   position: absolute;
-    top:60px;
-    left: 94.5%;
+   position: relative;
+    top:3.2rem;
+    right: 3rem;
+    
 
 }
 nav ul li ul li{
@@ -177,3 +181,34 @@ ul li:hover ul{
     margin-top:30px;
     font-size:0.8rem;
 }
+
+@media (max-width:1220px){
+    .icon i{ 
+         right:0.2rem;
+              
+     }
+     
+     .icon label{
+         right: 2.4rem;
+     }
+     nav ul li{
+         margin-top:55px;
+     }
+     nav ul li a{
+        
+        font-size:1rem;
+        
+    }
+    .rodape label{
+        font-size: 1rem;
+        
+        
+    }
+
+
+}
+/*
+@media (max-width:1140px){
+     fazer menu responsivo 
+}
+*/
