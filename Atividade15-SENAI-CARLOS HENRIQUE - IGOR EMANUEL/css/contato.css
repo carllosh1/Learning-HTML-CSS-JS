@@ -1,0 +1,39 @@
+main{
+    font-family: 'Courier New', Courier, monospace;
+}
+.ctt h1{
+    text-align: center;
+}
+.icons{
+    text-align: justify;
+    padding-top: 0.57%;
+    padding-left: 0.35%;
+}
+.ctt{
+    margin-bottom: 2.5%;
+}
+.loc{
+    text-align: center;
+}
+fieldset{
+    margin-left: 35%;
+    margin-right: 35%;
+}
+legend{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.geral{
+    display: grid;
+    grid-template-rows: 0.6fr   2.4fr 1fr;
+    grid-template-areas: "t" "m" "f";
+}
+header{
+    grid-area: t;
+
+    height:150px;
+}
+main{
+    grid-area: m;
+}

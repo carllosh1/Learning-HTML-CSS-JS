@@ -34,7 +34,7 @@
 .produto{
     text-align:center;
     margin:5px auto;
-    background-color:gray;
+    background-color:rgba(84, 76, 76, 0.174);
 }
 
 .produto-image i{
@@ -51,13 +51,14 @@
     margin:10px;
 }
 .cart-buy button{
-    background:rgb(46, 155, 46);
+    background:rgb(60, 184, 60);
+    
     padding:5px 15px;
     border-radius: 8px;
     font-weight: bold;
 }
 .cart-buy button:hover{
-    background:rgb(60, 184, 60);
+    background:rgb(46, 155, 46);
     transition: 0.5s;
 }
 .destaque-main{
@@ -79,7 +80,7 @@
 }
 
 .product-destaque{
-    background:gray;
+    background-color:rgba(84, 76, 76, 0.174);
     border-radius: 100px;
     margin:10px auto;
 
@@ -100,7 +101,7 @@
 
 .offer-header h2{
     margin:10px 30px;
-    color:orange;
+    color:rgb(205, 133, 1);
     font-size:1.5rem;
 }
 .offer-header p{
@@ -116,7 +117,7 @@
 
 .rodape-produtos{
     margin-top:20px;
-    background:orange;
+    background:rgb(255, 111, 0);
     font-size:1.3rem;
 }
 
