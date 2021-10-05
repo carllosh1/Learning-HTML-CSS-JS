@@ -1,0 +1,28 @@
+body{
+    background: #F5F8FF;
+}
+.centro{
+    width: 80vw;
+    margin: 10px auto;
+}
+.flex{
+    display:flex;
+    justify-items: space-evenly;
+}
+ .title{
+     text-align: center;
+ }
+ .citacao{
+    
+     font-style: italic;
+     width: 75vw;
+    margin: 10px auto;
+   
+ }
+ .center{
+    text-align: center;
+ }
+ h5{
+     text-decoration:bold;
+     color:black;
+ }
